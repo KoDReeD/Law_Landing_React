@@ -1,0 +1,26 @@
+.form_inner {
+  margin: 75px 0 0;
+}
+
+.form_inner p{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 25px 0;
+}
+
+.phone_input {
+  width: 270px;
+  height: 30px;
+}
+
+.phone_input::placeholder {
+  font-size: 14px;
+  color: #b1b1b1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.phone_row button {
+  margin: 0 10px;
+}

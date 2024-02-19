@@ -1,9 +1,28 @@
+:root {
+	--light-yellow: #e3c37a;
+	--dark-yellow: #a4834e;
+	--disable-gray: #b1b1b1;
+	--white: #fff;
+	--text-dark: #232228;
+	--green: #4ea470;
+	--red: #a44e4e;
+	--bg-gray: #d9d9d9;
+	--ng-light-gray: #f6f4f5;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home {
   background-image: url(/public/images/home-bg.jpg);
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+

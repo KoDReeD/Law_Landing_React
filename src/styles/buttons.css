@@ -1,0 +1,16 @@
+.btn_light, .btn_dark {
+  background: transparent;
+  border: 1px solid var(--light-yellow);;
+  height: 36px;
+  padding: 7px 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn_light {
+  color: var(--white);
+}
+
+.btn_dark {
+  color: var(--text-dark);
+}
