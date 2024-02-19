@@ -1,0 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.home {
+  background-image: url(/public/images/home-bg.jpg);
+}

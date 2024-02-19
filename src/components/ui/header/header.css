@@ -1,0 +1,37 @@
+/* сброс стилей у selector */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #E3C37A;
+}
+
+/* мои стили */
+.nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.16);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-item {
+  color: #B1B1B1;
+  padding-right: 28px;
+}
+
+
