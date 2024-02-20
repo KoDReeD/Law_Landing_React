@@ -3,8 +3,8 @@ import PhoneForm from '../../ui/phone_form/PhoneForm'
 
 export default function Home() {
   return (
-    <section className={style.section_home}>
-      <div className="container">
+    <div className="container">
+      <section className={style.section_home}>
         <div className={style.row}>
           <div className={style.text_block}>
             <h1 className={style.title}>
@@ -14,7 +14,7 @@ export default function Home() {
             <p className={style.p}>
               Помощь в решении любого правового вопроса в вашу пользу
             </p>
-            <PhoneForm/>
+            <PhoneForm />
 
             <div className={style.stat_block}>
               <ul className={style.status_list}>
@@ -35,11 +35,11 @@ export default function Home() {
           </div>
 
           <div className={style.image_block}>
-            <img src='/images/statya.png'/>
+            <img src='/images/statya.png' />
           </div>
 
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }

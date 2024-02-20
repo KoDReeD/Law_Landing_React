@@ -34,7 +34,7 @@ a {
 
 .image_block {
   display: flex;
-  height: 600px;
+  height: 602px;
   margin: 35px 0 0;
 }
 
@@ -44,14 +44,14 @@ a {
 
 .stat_block {
   background: rgba(35, 34, 40, 0.62);
-  margin: 105px 0 0;
+  margin: 108px 0 0;
 }
 
 .status_list {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding: 32px 54px 0 34px;
+  padding: 30px 54px 0 34px;
 }
 
 .status_item {
