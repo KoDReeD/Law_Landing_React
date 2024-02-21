@@ -26,6 +26,13 @@ ul {
   margin: 0;
 }
 
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -36,3 +43,29 @@ h3 {
   padding: 0;
 }
 
+/* светло серый текст (рядом с ним черточки есть) */
+.light_gray_text {
+  font-size: 16px;
+  color: var(--disable-gray);  
+  font-weight: 300;
+}
+
+/* чёрточка рядом с текстом */
+.line_element {
+  width: 50px;
+  height: 1px;
+  background-color: var(--disable-gray);
+  margin: 8px 10px 0 0;
+}
+
+.yellow_color {
+  color: var(--dark-yellow);
+}
+
+/* advantages */
+
+.advantages {
+  background-image: url(/public/images/advantages_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}

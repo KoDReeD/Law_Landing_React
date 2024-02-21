@@ -6,36 +6,10 @@
   margin: 80px 0 0 120px; /* Центрируем текстовый блок */
 }
 
-.title_block {
-  margin: 24px 0 0;
-  text-transform: uppercase;
-}
-
-.slovo {
-  font-size: 16px;
-  color: var(--disable-gray);  
-  font-weight: 300;
-}
-
 .slovo_block {
   display: flex;
 }
 
-.line {
-  width: 50px;
-  height: 1px;
-  background-color: var(--disable-gray);
-  margin: 8px 10px 0 0;
-}
-
-.text_block h3{
-  font-weight: 400;
-  font-size: 40px;
-}
-
-.title_row2 {
-  color: var(--dark-yellow);
-}
 
 .slogan {
   margin: 40px 0 0;

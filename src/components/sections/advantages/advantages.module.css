@@ -1,0 +1,56 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_advantages {
+  text-align: center;
+ 
+}
+
+.different_color {
+  color: var(--dark-yellow);
+}
+
+.advantages_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.advantages_item {
+  border: 1px solid var(--bg-gray);
+  padding: 32px 24px;
+  margin-left: 24px;
+  min-width: 250px;
+  text-align: left;
+}
+
+.item_title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Ysabeau', sans-serif;
+  margin-top: 25px;
+}
+
+.item_text {
+  text-align: left;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.img_box {
+  height: 48px;
+}
+
+.list_img {
+  
+}
+
+
+
+
+

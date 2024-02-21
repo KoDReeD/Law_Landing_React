@@ -3,6 +3,7 @@ import Header from './components/ui/header/Header';
 import Home from './components/sections/home/Home';
 import Director from './components/sections/director/Director';
 import './app.css';
+import Advantages from './components/sections/advantages/Advantages';
 
 export default function App() {
   return (
@@ -11,7 +12,10 @@ export default function App() {
         <Header />
         <Home />
       </div>
-      <Director/>
+      <Director />
+      <div className='advantages'>
+        <Advantages/>
+      </div>
     </div>
 
 

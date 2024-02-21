@@ -11,13 +11,11 @@ export default function Director() {
 
         <div className={style.text_block}>
           <div className={style.slovo_block}>
-            <div className={style.line}></div>
-            <p className={style.slovo}>Слово руководителя</p>
+            <div className="line_element"></div>
+            <p className="light_gray_text">Слово руководителя</p>
           </div>
-          <div className={style.title_block}>
-            <h3>Потому что нам</h3>
-            <h3 className={style.title_row2}>не все равно</h3>
-          </div>
+          {/* app.css */}
+          <h1 className='title'>Потому что нам <br /> <span class='yellow_color'>не все равно</span></h1>
           <p className={style.slogan}>Я обеспечу представление Ваших интересов в судах общей<br></br>
             юрисдикции, арбитраже, третейском суде, приму участие<br></br>
             в переговорах, окажу помощь на стадии досудебного<br></br>
@@ -31,7 +29,7 @@ export default function Director() {
         </div>
 
         <div className={style.rospis_block}>
-          <img className={style.rospis_img} src='/images/rospis.png'/>
+          <img className={style.rospis_img} src='/images/rospis.png' />
         </div>
 
       </div>
