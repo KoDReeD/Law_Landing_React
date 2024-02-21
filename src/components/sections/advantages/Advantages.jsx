@@ -2,7 +2,8 @@ import style from './advantages.module.css';
 
 export default function Advantages() {
   return (
-    <div className={`${style.center} container`}>
+    <div className={style.bg}>
+      <div className={`${style.center} container`}>
       <div className={style.section_advantages}>
         <p style={{ margin: '80px 0 0' }} className="light_gray_text">Наши преимущества</p>
         {/* app.css */}
@@ -53,6 +54,7 @@ export default function Advantages() {
         <button style={{ margin: '100px 0 90px' }} className='btn_dark'>Заказать звонок</button>
         
       </div>
+    </div>
     </div>
   )
 }

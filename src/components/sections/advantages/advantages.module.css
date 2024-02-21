@@ -1,3 +1,9 @@
+.bg {
+  background-image: url(/public/images/advantages_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .center {
   display: flex;
   justify-content: center;

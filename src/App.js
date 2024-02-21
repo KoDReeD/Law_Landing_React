@@ -4,6 +4,7 @@ import Home from './components/sections/home/Home';
 import Director from './components/sections/director/Director';
 import './app.css';
 import Advantages from './components/sections/advantages/Advantages';
+import Specialists from './components/sections/specialists/Specialists';
 
 export default function App() {
   return (
@@ -13,9 +14,8 @@ export default function App() {
         <Home />
       </div>
       <Director />
-      <div className='advantages'>
-        <Advantages/>
-      </div>
+      <Advantages />
+      <Specialists />
     </div>
 
 

@@ -1,0 +1,47 @@
+.bg {
+  background-color: var(--ng-light-gray);
+}
+
+.section_specialists {
+  display: flex;
+  padding: 108px 0;
+}
+
+.block {
+  display: flex;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-top: 40px;
+}
+
+.content_block {
+  min-width: 492px; 
+}
+
+.specialists_block{
+  min-width: 600px;
+}
+
+.specialists_list {
+display: flex;
+}
+
+.list_item {
+  margin-right: 20px;
+}
+
+.item_img {
+  background-color: var(--dark-yellow);
+  padding: 10px 0 0;
+}
+
+.item_name {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--text-dark);
+}
