@@ -15,7 +15,7 @@ export default function Director() {
             <p className="light_gray_text">Слово руководителя</p>
           </div>
           {/* app.css */}
-          <h1 className='title'>Потому что нам <br /> <span class='yellow_color'>не все равно</span></h1>
+          <h1 className='title_black'>Потому что нам <br /> <span class='yellow_color'>не все равно</span></h1>
           <p className={style.slogan}>Я обеспечу представление Ваших интересов в судах общей<br></br>
             юрисдикции, арбитраже, третейском суде, приму участие<br></br>
             в переговорах, окажу помощь на стадии досудебного<br></br>

@@ -7,7 +7,7 @@ export default function Home() {
       <section className={style.section_home}>
         <div className={style.row}>
           <div className={style.text_block}>
-            <h1 className={style.title}>
+            <h1 className={style.title_black}>
               Решим любой
               правовой вопрос
             </h1>

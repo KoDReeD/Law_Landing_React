@@ -4,7 +4,7 @@
 
 .section_specialists {
   display: flex;
-  padding: 108px 0;
+  padding: 60px 0 50px 0;
 }
 
 .block {
@@ -24,6 +24,7 @@
 
 .specialists_block{
   min-width: 600px;
+  overflow: auto;
 }
 
 .specialists_list {
@@ -37,6 +38,7 @@ display: flex;
 .item_img {
   background-color: var(--dark-yellow);
   padding: 10px 0 0;
+  height: 300px;
 }
 
 .item_name {

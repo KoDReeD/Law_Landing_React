@@ -7,7 +7,7 @@ export default function Advantages() {
       <div className={style.section_advantages}>
         <p style={{ margin: '80px 0 0' }} className="light_gray_text">Наши преимущества</p>
         {/* app.css */}
-        <h1 style={{ margin: '32px 0 0' }} className='title'>Почему <span className='yellow_color'>выбирают</span> нас</h1>
+        <h1 style={{ margin: '32px 0 0' }} className='title_black'>Почему <span className='yellow_color'>выбирают</span> нас</h1>
 
         <ul className={style.advantages_list}>
           <li className={style.advantages_item}>

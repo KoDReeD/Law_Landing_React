@@ -26,11 +26,15 @@ ul {
   margin: 0;
 }
 
-.title {
+.title_black, .title_white {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 40px;
+}
+
+.title_white {
+  color: white;
 }
 
 p {
@@ -60,6 +64,10 @@ h3 {
 
 .yellow_color {
   color: var(--dark-yellow);
+}
+
+.yellow_light_color {
+  color: var(--light-yellow);
 }
 
 .h5_text {

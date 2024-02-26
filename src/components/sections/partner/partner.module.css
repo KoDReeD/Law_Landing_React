@@ -1,0 +1,44 @@
+.bg {
+  background-image: url(/public/images/partner_bg.png);
+  background-color: var(--text-dark);
+}
+
+.partner_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_partner{
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+
+.partner_item{
+  border: 1px solid var(--disable-gray);
+  padding: 20px 24px 45px;
+  margin-left: 15px;
+  width: 150px;
+  height: 100px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.imb_box {
+  text-align: center;
+  height: 86px;
+  width: 140px;
+  margin: 0 0 5px 0;
+}
+
+.item_img {
+  height: 70px;
+}
+
+.item_title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
